@@ -1,0 +1,726 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin-top: 120;
+  background-image:linear-gradient(to right,mediumseagreen,red);
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  margin: 0;
+}
+html {
+  overflow-x: hidden;
+  background-color: antiquewhite;
+
+}
+p {
+  margin: 0 0 13px 0;
+}
+a:link {
+  text-decoration: none;
+  color:inherit;
+}
+#imagebienvenue
+{
+  margin-left: 99px;
+  height: 200PX;
+  WIDTH: 502PX;
+}
+.japonais
+{
+  margin-left: 250PX;
+  COLOR: black;
+
+}
+
+
+#content-full {
+  text-align: justify;
+}
+#innertitlediv {
+  color: white;
+  width: 400px;
+  margin: 0 auto;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+#kazuoPic {
+  width: 300px;
+  height: 300px;
+}
+#remainsBook {
+  width: 195px;
+  height: 300px;
+}
+#gon {
+  position: absolute;
+  right: 5%;
+  top: 150px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+
+}
+#Hisoka{
+  position: absolute;
+  top: 500px;
+  left: 5%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+#Killua {
+  position: absolute;
+  top: 800px;
+  right: 5%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+#Kurapika {
+  position: absolute;
+  top: 1100px;
+  left: 5%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+#leolio {
+  position: absolute;
+  right: 5%;
+  top: 1400px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+#Gin {
+  position: absolute;
+  top: 1700px;
+  left: 5%;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+#Phantom {
+  position: absolute;
+  right: 5%;
+  top: 2100px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.connect {
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+}
+ul.connect {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+.connect li {
+  display:inline;
+  list-style:none;
+  float:left;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+.connect li a {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+.connect li div {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.mainTitle{
+  top:0px;
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: table;
+  text-align: center;
+}
+.mainBody{
+  height: 2750px;
+  width: 100%;
+  background-size: 100% 1200px;
+
+
+}
+.authorbody, .aboutbody {
+  background: #F8ECC2;
+  height: 1350px;
+  width: 100%;
+  text-align: center;
+}
+#moreinfo {
+  padding: 10px;
+}
+#kazuo {
+  width: 400px;
+  padding: 5px;
+  margin: 0 auto;
+}
+#video {
+  padding: 10px;
+}
+#titlediv {
+  vertical-align: middle;
+  display: table-cell;
+}
+#tabs {
+  float:left;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  border-radius: initial;
+}
+ul.tab {
+  clear:left;
+  float:left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  position:relative;
+  left:50%;
+  text-align:center;
+}
+
+
+ul.tab li {
+  display:block;
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+  position:relative;
+  right:50%;
+}
+
+
+ul.tab li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 22px;
+}
+
+
+ul.tab li a:hover {
+  background-color: red;
+  color: black
+}
+
+ul.tab li a:focus, .active {
+  background-color: lighter(60%);
+}
+.copy-section {
+  font-family: Arial, sans-serif;
+  padding: 2em 0;
+  background: #2e2c38;
+  text-align: center;
+  margin-top: 2px;
+}
+.copy-section p {
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.copy-section a {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*-----------------------
+--------------------------
+Histoire
+--------------------------
+ */
+
+a {
+  color: #fff;
+}
+.center {
+  text-align: center;
+}
+
+.container {
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.episode {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+}
+
+.episode__number {
+  font-size: 10vw;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: calc(10vw + 20px);
+  transition: all 0.2s ease-in;
+}
+
+.episode__content {
+  border-top: 2px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.episode__content .title {
+  font-weight: 600
+}
+
+.episode__content .story {
+  line-height: 26px;
+}
+
+/*-----------------------
+--------------------------
+Histoire
+--------------------------
+ */
+
+
+
+
+/*-----------------------
+--------------------------
+Yoshihiro Togashi
+
+-------------------------- */
+.autor{
+  width: 200px;
+  height: 200px;
+  float: left;
+  shape-outside: circle(80%);
+  margin-right: 10px;
+}
+.autor1{
+  font-family: eczar;
+  width: 70%;
+  margin: 120px auto;
+  padding: 20px 40px;
+  box-shadow: 0 0 90px black;
+}
+.videoautor
+{
+  justify-content:space-between;
+  display: flex;
+  padding: 20px;
+
+}
+h1{
+  text-align: center;
+  margin-top: 0;
+}
+
+html{
+  background-color: antiquewhite;
+}
+iframe
+{
+  margin-bottom: 120px;
+}
+
+
+.slideshow {
+  list-style-type: none;
+}
+/*-----------------------
+--------------------------
+Yoshihiro Togashi
+
+-------------------------- */
+
+
+
+/*-----------------------
+--------------------------
+Fqn art
+-------------------------- */
+.slideshow,
+.slideshow:after {
+  top: -16px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  z-index: 0;
+}
+
+.slideshow li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 0;
+  animation: imageAnimation 30s linear infinite 0s;
+}
+
+
+@keyframes imageAnimation {
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  8% { opacity: 1; animation-timing-function: ease-out; }
+  17% { opacity: 1 }
+  25% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+
+@keyframes titleAnimation {
+  0% { opacity: 0 }
+  8% { opacity: 1 }
+  17% { opacity: 1 }
+  19% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+
+.no-cssanimations .cb-slideshow li span {
+  opacity: 1;
+}
+
+.Fanartcont {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 80vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: 1.5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+/*-----------------------
+--------------------------
+Fqn art
+-------------------------- */
+
+/*-----------------------
+--------------------------
+Nom des personnages
+-------------------------- */
+.Nom
+{
+  color: black;
+  align-items: center;
+  width: 100%;
+  text-shadow: 1px 2px red;
+}
+.Nom2
+{
+  color: black;
+  align-items: center;
+  width: 100%;
+  text-shadow: 1px 2px green;
+}
+/*-----------------------
+--------------------------
+Nom des personnages
+-------------------------- */
+
+
+/*-----------------------
+--------------------------
+SHOP
+-------------------------- */
+
+.tout {
+  --gradient: linear-gradient(to right,mediumseagreen,red);
+  font-family: "Bungee", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.6;
+  background: #7f7fd5;
+  background-size: 300%;
+  background-image: var(--gradient);
+  animation: bg-animation 4s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.container-2 {
+  background: #fff;
+  width: 70vw;
+  padding: 3rem;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: -webkit-center;
+  text-transform: uppercase;
+  font-weight: 1900;
+  font-style: italic;
+  font-size: 3rem;
+  color: lightsteelblue;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 300%;
+  transition: background-position 1s;
+}
+
+.title:hover {
+  background-position: right;
+}
+
+.btn {
+  color: #fff;
+  font: inherit;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5rem 1.25rem;
+  background: var(--gradient);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 350ms;
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+/*-----------------------
+--------------------------
+SHOP
+-------------------------- */
+
+
+/*-----------------------
+--------------------------
+cONTACT
+-------------------------- */
+
+.card {
+  width: 70%;
+  padding: 30px 90px 90px 90px;
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.card h2 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.card .row {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid: auto / auto auto;
+  grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+  grid-gap: 30px;
+}
+
+.card .row .col {
+  position: relative;
+  width: 100%;
+  margin: 30px 20px 40px 0;
+  transition: 0.5s;
+}
+
+.card .row .form-group {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+}
+
+.card .row .form-group input,
+.card .row .form-group textarea {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  font-size: 24px;
+  padding: 10px 0 10px 20px;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.card .row .form-group label {
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 0 0 30px;
+  display: block;
+  pointer-events: none;
+}
+
+.row .col:nth-child(6) {
+  margin-top: 64px;
+}
+
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+  border: 5px solid #ffffff;
+  transition: all 0.5s;
+}
+
+.card .row input[type="submit"] {
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 45px;
+  transition: all 0.4s;
+}
+
+.card .row input[type="submit"]:hover {
+  border: 5px solid rgba(255, 255, 255, 1);
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+/*-----------------------
+--------------------------
+cONTACT
+-------------------------- */
+
+/*---------- Les Meddia qua --*/
+
+@media (max-width: 930px) {
+  #beginning, #DarlingtonHall, #Taunton, #Compton, #Regret {
+    right: 0;
+  }
+  #salisbury, #MortimerPond, #Moscombe, #Weymouth {
+    left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .episode__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .episode__content .story {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card .row {
+    grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    font-size: 34px;
+  }
+
+  .card .row input[type="submit"] {
+    width: 100%;
+  }
+}
+
